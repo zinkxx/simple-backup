@@ -1,0 +1,49 @@
+/* Simple Backup Eklentisi için stil dosyası */
+
+/* Genel stil ayarları */
+.wrap {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Başlık stilini belirleyelim */
+h1 {
+    color: #0073aa;
+    font-size: 24px;
+}
+
+/* Yedekleme butonunu stilize edelim */
+input[type="submit"].button-primary {
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"].button-primary:hover {
+    background-color: #005a8c;
+}
+
+/* Sayfa altındaki uyarı mesajları */
+.notice {
+    background-color: #fff3cd;
+    border-left: 4px solid #ffeeba;
+    color: #856404;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+/* Form alanları */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input[type="submit"] {
+    align-self: start;
+}
